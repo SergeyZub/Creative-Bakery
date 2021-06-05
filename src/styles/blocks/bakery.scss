@@ -89,33 +89,33 @@
   &__image-box {
     position: relative;
 
-    &::after {
-      position: absolute;
-      margin-left: 20px;
-      cursor: pointer;
-      top: 50%;
-      content: url(./../images/bakery/Vector1.png);
-      height: 15px;
-      width: 25px;
+    // &::after {
+    //   position: absolute;
+    //   margin-left: 20px;
+    //   cursor: pointer;
+    //   top: 50%;
+    //   content: url(./../images/bakery/Vector1.png);
+    //   height: 15px;
+    //   width: 25px;
 
-      @media (max-width: 500px) {
-        margin-left: 5px;
-      }
-    }
+    //   @media (max-width: 500px) {
+    //     margin-left: 5px;
+    //   }
+    // }
 
-    &::before {
-      position: absolute;
-      margin-left: -40px;
-      cursor: pointer;
-      top: 50%;
-      content: url(./../images/bakery/Vector2.png);
-      height: 15px;
-      width: 25px;
+    // &::before {
+    //   position: absolute;
+    //   margin-left: -40px;
+    //   cursor: pointer;
+    //   top: 50%;
+    //   content: url(./../images/bakery/Vector2.png);
+    //   height: 15px;
+    //   width: 25px;
 
-      @media (max-width: 500px) {
-        margin-left: -20px;
-      }
-    }
+    //   @media (max-width: 500px) {
+    //     margin-left: -20px;
+    //   }
+    // }
   }
 
   &__image {
